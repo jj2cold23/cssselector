@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors Example</title>
+  <style>
+    h1 {
+      color: blue;
+      font-size: 32px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+      padding: 10px;
+      border: 2px solid red;
+      display: inline-block;
+    }
+    
+    p > span {
+      font-style: italic;
+      color: green;
+      text-decoration: underline;
+      letter-spacing: 1px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to CSS Selectors</h1>
+  
+  <p>This is a <span class="highlight">highlighted</span> sentence.</p>
+  
+  <p>Here is another paragraph with a <span>span element</span> inside it.</p>
+</body>
+</html>
